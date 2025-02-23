@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -17,19 +16,19 @@ body {
 
 header {
     min-height: 50px;
-    background-image: url(./img/salgados.png);
+    background-image: url(/../img/doces.png);
     padding: 250px;
+    display: flex;
     background-size: 100%;
     background-repeat: no-repeat;
-    display: flex;
     justify-content: justify; /*aplica alinhamento justificado distribuindo igualmente entre os espaços*/
     align-items: center; /**/
     width: 100%;
     flex-wrap: wrap;
-    gap: 8px 10px;
+    gap: 8px 15px;
 }
 
-.topo {
+.topo { 
     text-align: center;
     padding: 05px;
     font-family: Arial, Helvetica, sans-serif;
@@ -160,6 +159,7 @@ main {
   background-color:#000000;
 }
 
+
 footer {
     min-height: 100px;
     background-color: rgba(254, 161, 161);
@@ -198,6 +198,10 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 15px;
+    }
+
+    .itens-laterais {
+        min-width: auto;
     }
 
     .botao-footer {

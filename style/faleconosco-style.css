@@ -16,7 +16,7 @@ body {
 
 header {
     min-height: 50px;
-    background-image: url(./img/fale-conosco.png);
+    background-image: url(/../img/fale-conosco.png);
     background-size: 100%;
     padding: 250px;
     display: flex;
